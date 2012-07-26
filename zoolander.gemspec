@@ -8,15 +8,15 @@ Gem::Specification.new do |gem|
   gem.version       = Zoolander::VERSION
   gem.authors       = ["John Butler"]
   gem.email         = ["johnnypez@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{An example gem that extends ActionView and prints Zoolander quotes}
+  gem.summary       = %q{An example gem that extends ActionView and prints Zoolander quotes}
+  gem.homepage      = "http://github.com/johnnypez/zoolander"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'activesupport', '~> 3.2'
+  gem.add_dependency 'active_support', '~> 3.2'
   gem.add_development_dependency 'rspec'
 end
