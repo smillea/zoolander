@@ -1,6 +1,6 @@
 # Zoolander
 
-TODO: Write a gem description
+TODO: A ridiculously good looking ruby gem that adds a view helper to Rails and dishes out Zoolander quotes
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To add some random Zoolander quotes to your view just drop in..
+
+```ruby
+<%= zoolander_quote %>
+```
 
 ## Contributing
 
