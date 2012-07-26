@@ -1,6 +1,6 @@
 # Zoolander
 
-TODO: A ridiculously good looking ruby gem that adds a view helper to Rails and dishes out Zoolander quotes
+A ridiculously good looking ruby gem that adds a view helper to Rails and dishes out Zoolander quotes
 
 ## Installation
 
